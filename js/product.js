@@ -55,6 +55,8 @@ function displayFeaturedProducts() {
             <div class="product-info">
                 <h3>${product.name}</h3>
                 <p class="product-price">R${product.price.toFixed(2)}</p>
+                <br>
+                <p class="product-description">${product.description}</p>
             </div>
         </div>
     `).join('');
