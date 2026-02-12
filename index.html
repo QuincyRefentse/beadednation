@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeadedNation - Traditional South African Clothing</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/beadednation.PNG" alt="BeadedNation Logo">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="product-grid" id="featured-products">
+            <!-- Products will be loaded dynamically via JavaScript -->
+        </div>
+    </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Celebrate Heritage with <span class="highlight">BeadedNation</span></h1>
+            <p>Authentic South African traditional clothing, handcrafted with love and cultural pride</p>
+            <div class="hero-buttons">
+                <a href="shop.html" class="btn btn-primary">Shop Now</a>
+                <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/banners/hero-traditional.jpg" alt="Traditional South African Clothing">
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="featured-categories">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="images/products/men-traditional.jpg" alt="Men's Traditional Wear">
+                <h3>Men's Collection</h3>
+                <a href="shop.html?category=men" class="category-link">Shop Now →</a>
+            </div>
+            <div class="category-card">
+                <img src="images/products/women-traditional.jpg" alt="Women's Traditional Wear">
+                <h3>Women's Collection</h3>
+                <a href="shop.html?category=women" class="category-link">Shop Now →</a>
+            </div>
+            <div class="category-card">
+                <img src="images/products/accessories.jpg" alt="Beaded Accessories">
+                <h3>Beaded Accessories</h3>
+                <a href="shop.html?category=accessories" class="category-link">Shop Now →</a>
+            </div>
+            <div class="category-card">
+                <img src="images/products/ceremonial.jpg" alt="Ceremonial Attire">
+                <h3>Ceremonial Attire</h3>
+                <a href="shop.html?category=ceremonial" class="category-link">Shop Now →</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Cultural Story Section -->
+    <section class="cultural-story">
+        <div class="story-content">
+            <h2>Our Cultural Heritage</h2>
+            <p>Each piece tells a story of South African tradition, handcrafted by skilled artisans using techniques passed down through generations.</p>
+            <div class="stats-container">
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Artisans</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Happy Customers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Tribal Patterns</span>
+                </div>
+            </div>
+        </div>
+        <div class="story-image">
+            <img src="images/banners/cultural-story.jpg" alt="South African Artisans">
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Join Our Community</h2>
+            <p>Subscribe to get updates on new collections and cultural stories</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="images/logo/beadednation-logo-white.png" alt="BeadedNation" class="footer-logo">
+                <p>Celebrating South African heritage through authentic traditional clothing.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Men's Wear</a></li>
+                    <li><a href="#">Women's Wear</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Ceremonial</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Johannesburg, South Africa</li>
+                    <li><i class="fas fa-phone"></i> +27 11 234 5678</li>
+                    <li><i class="fas fa-envelope"></i> info@beadednation.co.za</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BeadedNation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
